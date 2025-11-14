@@ -1,0 +1,27 @@
+{
+  "shellcheck.enable": true,
+  "shellcheck.enableQuickFix": true,
+  "shellcheck.run": "onType",
+  "shellformat.effectLanguages": [
+    "shellscript"
+  ],
+  "shellformat.path": "shfmt",
+  "shellformat.flag": "-i 4 -ci",
+  "files.associations": {
+    "tunnel-manager.sh": "shellscript"
+  },
+  "files.eol": "\n",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "[shellscript]": {
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "terminal.integrated.shellArgs.windows": [],
+  "git.autofetch": true,
+  "git.enableSmartCommit": true
+}

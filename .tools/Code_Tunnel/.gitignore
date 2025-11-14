@@ -1,0 +1,27 @@
+# VS Code Remote Tunnel Manager .gitignore
+
+# Downloaded binaries
+vscode_cli_alpine_x64_cli.tar.gz
+code
+
+# Log files
+*.log
+vscode-server.log
+
+# Environment files
+.env
+.env.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
