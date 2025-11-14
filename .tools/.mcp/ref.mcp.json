@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "graphrag Docs": {
+      "url": "https://gitmcp.io/microsoft/graphrag"
+    }
+
+},
+"Playwright_Docs": {
+      "url": "https://gitmcp.io/microsoft/playwright"
+    },
+"Awesomee_Copilot": {
+      "url": "https://gitmcp.io/ArtemisAI/github-copilot"
+    }
+  }
