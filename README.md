@@ -17,6 +17,26 @@ This repository provides a comprehensive toolkit for enhancing GitHub Copilot wi
 - **👉 [Awesome Chat Modes](docs/README.chatmodes.md)** - Specialized AI personas and conversation modes for different roles and contexts
 - **👉 [Awesome Collections](docs/README.collections.md)** - Curated collections of related prompts, instructions, and chat modes organized around specific themes and workflows
 
+## 📂 Browse by Category
+
+Our resources are now organized by technology domain for easier discovery. **[📖 View Complete Categories Guide](CATEGORIES.md)**
+
+| Category | Description | Subcategories |
+| -------- | ----------- | ------------- |
+| 🌐 [Web Development](web-development/) | Frontend frameworks and web tools | Angular, React, Vue, Astro, Frontend |
+| 🔧 [Backend Development](backend-development/) | Server-side languages and frameworks | .NET/C#, Java, Python, Go, Ruby, PHP, Node.js, Kotlin, Rust |
+| ☁️ [Cloud Platforms](cloud-platforms/) | Cloud platform tools | Azure, AWS, GCP |
+| 📱 [Mobile Development](mobile-development/) | Mobile app frameworks | Flutter, MAUI, iOS, Android |
+| 🗄️ [Database](database/) | Database systems and data | SQL, NoSQL, Cosmos DB |
+| ⚙️ [DevOps & Infrastructure](devops-infrastructure/) | CI/CD and IaC | CI/CD, Docker, Kubernetes, Terraform, Bicep, Ansible |
+| 🖥️ [Desktop Applications](desktop-applications/) | Desktop app frameworks | WPF, WinForms, Electron |
+| 🤖 [AI & Machine Learning](ai-ml/) | AI/ML development | MCP Servers, Prompt Engineering, Semantic Kernel |
+| ✅ [Testing & Quality](testing-quality/) | Testing and quality practices | Unit Testing, Security, Accessibility |
+| 📊 [Project Management](project-management/) | Planning and documentation | Planning, Documentation, Agile |
+| 🔗 [Third-Party Integrations](third-party-integrations/) | Partner integrations | Partners |
+
+> **Note:** General-purpose resources that don't fit into a specific category can still be found in the original [prompts/](prompts/), [instructions/](instructions/), [agents/](agents/), and [chatmodes/](chatmodes/) folders.
+
 ## 🌟 Featured Collections
 
 Discover our curated collections of prompts, instructions, and chat modes organized around specific themes and workflows.
@@ -102,11 +122,73 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ## 📖 Repository Structure
 
 ```plaintext
-├── prompts/          # Task-specific prompts (.prompt.md)
-├── instructions/     # Coding standards and best practices (.instructions.md)
-├── chatmodes/        # AI personas and specialized modes (.chatmode.md)
-├── collections/      # Curated collections of related items (.collection.yml)
-└── scripts/          # Utility scripts for maintenance
+├── web-development/          # Frontend frameworks and web tools
+│   ├── angular/             # Angular-specific resources
+│   ├── react/               # React-specific resources
+│   ├── vue/                 # Vue.js resources
+│   ├── astro/               # Astro resources
+│   └── frontend/            # General frontend resources
+├── backend-development/      # Server-side languages
+│   ├── dotnet-csharp/       # .NET and C# resources
+│   ├── java/                # Java resources
+│   ├── python/              # Python resources
+│   ├── go/                  # Go resources
+│   ├── ruby/                # Ruby resources
+│   ├── php/                 # PHP resources
+│   ├── nodejs/              # Node.js and TypeScript
+│   ├── kotlin/              # Kotlin resources
+│   └── rust/                # Rust resources
+├── cloud-platforms/          # Cloud platform tools
+│   ├── azure/               # Microsoft Azure
+│   ├── aws/                 # Amazon Web Services
+│   └── gcp/                 # Google Cloud Platform
+├── mobile-development/       # Mobile app frameworks
+│   ├── flutter/             # Flutter and Dart
+│   ├── maui/                # .NET MAUI
+│   ├── ios/                 # iOS and Swift
+│   └── android/             # Android
+├── database/                 # Database systems
+│   ├── sql/                 # SQL databases
+│   ├── nosql/               # NoSQL databases
+│   └── cosmosdb/            # Azure Cosmos DB
+├── devops-infrastructure/    # CI/CD and IaC
+│   ├── cicd/                # CI/CD pipelines
+│   ├── docker/              # Docker
+│   ├── kubernetes/          # Kubernetes
+│   ├── terraform/           # Terraform
+│   ├── bicep/               # Azure Bicep
+│   └── ansible/             # Ansible
+├── desktop-applications/     # Desktop frameworks
+│   ├── wpf/                 # WPF
+│   ├── winforms/            # WinForms
+│   └── electron/            # Electron
+├── ai-ml/                    # AI/ML development
+│   ├── mcp-servers/         # MCP servers
+│   ├── prompt-engineering/  # Prompt engineering
+│   └── semantic-kernel/     # Semantic Kernel
+├── testing-quality/          # Testing and quality
+│   ├── unit-testing/        # Testing frameworks
+│   ├── security/            # Security practices
+│   └── accessibility/       # Accessibility
+├── project-management/       # Planning and docs
+│   ├── planning/            # Project planning
+│   ├── documentation/       # Documentation
+│   └── agile/               # Agile methodologies
+├── third-party-integrations/ # Partner tools
+│   └── partners/            # Partner integrations
+├── prompts/                  # General prompts (.prompt.md)
+├── instructions/             # General instructions (.instructions.md)
+├── chatmodes/                # General chat modes (.chatmode.md)
+├── agents/                   # General agents (.agent.md)
+├── collections/              # Curated collections (.collection.yml)
+└── scripts/                  # Utility scripts
+
+Each category folder contains subcategories, and each subcategory has:
+  ├── agents/           # Custom agents (.agent.md)
+  ├── prompts/          # Task prompts (.prompt.md)
+  ├── instructions/     # Coding standards (.instructions.md)
+  ├── chatmodes/        # Chat modes (.chatmode.md)
+  └── README.md         # Category documentation
 ```
 
 ## 📄 License

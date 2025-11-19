@@ -3,11 +3,11 @@ name: Swift MCP Server Development
 description: 'Comprehensive collection for building Model Context Protocol servers in Swift using the official MCP Swift SDK with modern concurrency features.'
 tags: [swift, mcp, model-context-protocol, server-development, sdk, ios, macos, concurrency, actor, async-await]
 items:
-  - path: instructions/swift-mcp-server.instructions.md
+  - path: ai-ml/mcp-servers/instructions/swift-mcp-server.instructions.md
     kind: instruction
-  - path: prompts/swift-mcp-server-generator.prompt.md
+  - path: ai-ml/mcp-servers/prompts/swift-mcp-server-generator.prompt.md
     kind: prompt
-  - path: chatmodes/swift-mcp-expert.chatmode.md
+  - path: ai-ml/mcp-servers/chatmodes/swift-mcp-expert.chatmode.md
     kind: chat-mode
     usage: |
       recommended

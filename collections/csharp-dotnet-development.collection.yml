@@ -3,21 +3,21 @@ name: C# .NET Development
 description: Essential prompts, instructions, and chat modes for C# and .NET development including testing, documentation, and best practices.
 tags: [csharp, dotnet, aspnet, testing]
 items:
-  - path: prompts/csharp-async.prompt.md
+  - path: backend-development/dotnet-csharp/prompts/csharp-async.prompt.md
     kind: prompt
-  - path: prompts/aspnet-minimal-api-openapi.prompt.md
+  - path: backend-development/dotnet-csharp/prompts/aspnet-minimal-api-openapi.prompt.md
     kind: prompt
-  - path: instructions/csharp.instructions.md
+  - path: backend-development/dotnet-csharp/instructions/csharp.instructions.md
     kind: instruction
-  - path: instructions/dotnet-architecture-good-practices.instructions.md
+  - path: backend-development/dotnet-csharp/instructions/dotnet-architecture-good-practices.instructions.md
     kind: instruction
-  - path: chatmodes/expert-dotnet-software-engineer.chatmode.md
+  - path: backend-development/dotnet-csharp/chatmodes/expert-dotnet-software-engineer.chatmode.md
     kind: chat-mode
-  - path: prompts/csharp-xunit.prompt.md
+  - path: backend-development/dotnet-csharp/prompts/csharp-xunit.prompt.md
     kind: prompt
-  - path: prompts/dotnet-best-practices.prompt.md
+  - path: backend-development/dotnet-csharp/prompts/dotnet-best-practices.prompt.md
     kind: prompt
-  - path: prompts/dotnet-upgrade.prompt.md
+  - path: backend-development/dotnet-csharp/prompts/dotnet-upgrade.prompt.md
     kind: prompt
 display:
   ordering: alpha

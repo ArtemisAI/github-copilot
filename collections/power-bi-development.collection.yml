@@ -4,7 +4,7 @@ description: Comprehensive Power BI development resources including data modelin
 tags: [power-bi, dax, data-modeling, performance, visualization, security, devops, business-intelligence]
 items:
   # Power BI Chat Modes
-  - path: chatmodes/power-bi-data-modeling-expert.chatmode.md
+  - path: web-development/angular/chatmodes/power-bi-data-modeling-expert.chatmode.md
     kind: chat-mode
 
   - path: chatmodes/power-bi-dax-expert.chatmode.md
@@ -20,19 +20,19 @@ items:
   - path: instructions/power-bi-custom-visuals-development.instructions.md
     kind: instruction
 
-  - path: instructions/power-bi-data-modeling-best-practices.instructions.md
+  - path: web-development/angular/instructions/power-bi-data-modeling-best-practices.instructions.md
     kind: instruction
 
   - path: instructions/power-bi-dax-best-practices.instructions.md
     kind: instruction
 
-  - path: instructions/power-bi-devops-alm-best-practices.instructions.md
+  - path: devops-infrastructure/cicd/instructions/power-bi-devops-alm-best-practices.instructions.md
     kind: instruction
 
   - path: instructions/power-bi-report-design-best-practices.instructions.md
     kind: instruction
 
-  - path: instructions/power-bi-security-rls-best-practices.instructions.md
+  - path: testing-quality/security/instructions/power-bi-security-rls-best-practices.instructions.md
     kind: instruction
 
   # Power BI Prompts

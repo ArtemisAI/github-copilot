@@ -15,27 +15,27 @@ tags:
     performance,
   ]
 items:
-  - path: agents/amplitude-experiment-implementation.agent.md
+  - path: third-party-integrations/partners/agents/amplitude-experiment-implementation.agent.md
     kind: agent
   - path: agents/arm-migration.agent.md
     kind: agent
-  - path: agents/dynatrace-expert.agent.md
+  - path: third-party-integrations/partners/agents/dynatrace-expert.agent.md
     kind: agent
-  - path: agents/jfrog-sec.agent.md
+  - path: testing-quality/security/agents/jfrog-sec.agent.md
     kind: agent
-  - path: agents/launchdarkly-flag-cleanup.agent.md
+  - path: third-party-integrations/partners/agents/launchdarkly-flag-cleanup.agent.md
     kind: agent
-  - path: agents/neon-migration-specialist.agent.md
+  - path: third-party-integrations/partners/agents/neon-migration-specialist.agent.md
     kind: agent
-  - path: agents/neon-optimization-analyzer.agent.md
+  - path: third-party-integrations/partners/agents/neon-optimization-analyzer.agent.md
     kind: agent
-  - path: agents/octopus-deploy-release-notes-mcp.agent.md
+  - path: third-party-integrations/partners/agents/octopus-deploy-release-notes-mcp.agent.md
     kind: agent
-  - path: agents/stackhawk-security-onboarding.agent.md
+  - path: testing-quality/security/agents/stackhawk-security-onboarding.agent.md
     kind: agent
-  - path: agents/terraform.agent.md
+  - path: devops-infrastructure/terraform/agents/terraform.agent.md
     kind: agent
-  - path: agents/pagerduty-incident-responder.agent.md
+  - path: third-party-integrations/partners/agents/pagerduty-incident-responder.agent.md
     kind: agent
 display:
   ordering: alpha

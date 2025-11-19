@@ -4,17 +4,17 @@ description: Essential prompts, instructions, and chat modes for modern frontend
 tags: [frontend, web, react, typescript, javascript, css, html, angular, vue]
 items:
   # Expert Chat Modes
-  - path: chatmodes/expert-react-frontend-engineer.chatmode.md
+  - path: web-development/react/chatmodes/expert-react-frontend-engineer.chatmode.md
     kind: chat-mode
-  - path: chatmodes/electron-angular-native.chatmode.md
+  - path: web-development/angular/chatmodes/electron-angular-native.chatmode.md
     kind: chat-mode
 
   # Development Instructions
-  - path: instructions/reactjs.instructions.md
+  - path: web-development/react/instructions/reactjs.instructions.md
     kind: instruction
-  - path: instructions/angular.instructions.md
+  - path: web-development/angular/instructions/angular.instructions.md
     kind: instruction
-  - path: instructions/vuejs3.instructions.md
+  - path: web-development/vue/instructions/vuejs3.instructions.md
     kind: instruction
   - path: instructions/nextjs.instructions.md
     kind: instruction
@@ -22,13 +22,13 @@ items:
     kind: instruction
   - path: instructions/tanstack-start-shadcn-tailwind.instructions.md
     kind: instruction
-  - path: instructions/nodejs-javascript-vitest.instructions.md
+  - path: backend-development/nodejs/instructions/nodejs-javascript-vitest.instructions.md
     kind: instruction
 
   # Prompts
-  - path: prompts/playwright-explore-website.prompt.md
+  - path: testing-quality/unit-testing/prompts/playwright-explore-website.prompt.md
     kind: prompt
-  - path: prompts/playwright-generate-test.prompt.md
+  - path: testing-quality/unit-testing/prompts/playwright-generate-test.prompt.md
     kind: prompt
 
 display:
