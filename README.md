@@ -19,7 +19,7 @@ This repository provides a comprehensive toolkit for enhancing GitHub Copilot wi
 
 ## 📂 Browse by Category
 
-Our resources are now organized by technology domain for easier discovery:
+Our resources are now organized by technology domain for easier discovery. **[📖 View Complete Categories Guide](CATEGORIES.md)**
 
 | Category | Description | Subcategories |
 | -------- | ----------- | ------------- |

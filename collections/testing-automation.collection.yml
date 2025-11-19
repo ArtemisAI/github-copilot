@@ -4,31 +4,31 @@ description: Comprehensive collection for writing tests, test automation, and te
 tags: [testing, tdd, automation, unit-tests, integration, playwright, jest, nunit]
 items:
   # TDD Chat Modes
-  - path: chatmodes/tdd-red.chatmode.md
+  - path: testing-quality/unit-testing/chatmodes/tdd-red.chatmode.md
     kind: chat-mode
-  - path: chatmodes/tdd-green.chatmode.md
+  - path: testing-quality/unit-testing/chatmodes/tdd-green.chatmode.md
     kind: chat-mode
-  - path: chatmodes/tdd-refactor.chatmode.md
+  - path: testing-quality/unit-testing/chatmodes/tdd-refactor.chatmode.md
     kind: chat-mode
-  - path: chatmodes/playwright-tester.chatmode.md
+  - path: testing-quality/unit-testing/chatmodes/playwright-tester.chatmode.md
     kind: chat-mode
 
   # Testing Instructions
-  - path: instructions/playwright-typescript.instructions.md
+  - path: backend-development/nodejs/instructions/playwright-typescript.instructions.md
     kind: instruction
-  - path: instructions/playwright-python.instructions.md
+  - path: backend-development/python/instructions/playwright-python.instructions.md
     kind: instruction
 
   # Testing Prompts
-  - path: prompts/playwright-explore-website.prompt.md
+  - path: testing-quality/unit-testing/prompts/playwright-explore-website.prompt.md
     kind: prompt
-  - path: prompts/playwright-generate-test.prompt.md
+  - path: testing-quality/unit-testing/prompts/playwright-generate-test.prompt.md
     kind: prompt
-  - path: prompts/csharp-nunit.prompt.md
+  - path: backend-development/dotnet-csharp/prompts/csharp-nunit.prompt.md
     kind: prompt
-  - path: prompts/java-junit.prompt.md
+  - path: backend-development/java/prompts/java-junit.prompt.md
     kind: prompt
-  - path: prompts/ai-prompt-engineering-safety-review.prompt.md
+  - path: web-development/angular/prompts/ai-prompt-engineering-safety-review.prompt.md
     kind: prompt
 
 display:

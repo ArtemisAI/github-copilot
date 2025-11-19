@@ -10,11 +10,11 @@ tags:
   - attributes
   - composer
 items:
-  - path: instructions/php-mcp-server.instructions.md
+  - path: backend-development/php/instructions/php-mcp-server.instructions.md
     kind: instruction
-  - path: prompts/php-mcp-server-generator.prompt.md
+  - path: backend-development/php/prompts/php-mcp-server-generator.prompt.md
     kind: prompt
-  - path: chatmodes/php-mcp-expert.chatmode.md
+  - path: backend-development/php/chatmodes/php-mcp-expert.chatmode.md
     kind: chat-mode
 display:
   ordering: manual
